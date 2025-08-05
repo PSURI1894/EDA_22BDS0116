@@ -99,7 +99,7 @@ This repository contains the complete project work for the course **BCSE331L –
 
 For queries related to this project:  
 📧 Email: [parthsuri009@gmail.com](mailto:parthsuri009@gmail.com)  
-📌 GitHub: [https://github.com/your-username](https://github.com/your-username)
+📌 GitHub: [https://github.com/PSURI1894](https://github.com/PSURI1894)
 
 ---
 
