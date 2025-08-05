@@ -10,7 +10,7 @@ This repository contains the complete project work for the course **BCSE331L –
 - **Registration No.:** 22BDS0116  
 - **Specialization:** B.Tech CSE – Data Science  
 - **Course Code:** BCSE331L  
-- **Instructor:** [Insert Faculty Name if needed]
+- **Instructor:** Dr. Prakash M
 
 ---
 
