@@ -87,6 +87,101 @@ This repository contains the complete project work for the course **BCSE331L –
 
 ---
 
+## 📑 Master Checklist — BCSE331L Exploratory Data Analysis Project  
+  
+---
+**✅ Phase 1 — Till Multivariate Analysis**
+
+- [x] **Dataset Loading & Overview**  
+  - Imported dataset from given GitHub URL.  
+  - Displayed first few rows and dataset shape (rows × columns).  
+
+- [x] **Data Summary & Metadata**  
+  - Summary statistics for numerical variables (mean, median, std, min, max).  
+  - Summary for categorical variables (unique values, top categories).  
+  - Checked distributions of numerical and categorical variables.  
+
+- [x] **Data Cleaning & Handling**  
+  - Checked and reported missing values per column.  
+  - Identified and handled duplicates (if any).  
+  - Documented treatment of missing/invalid data (drop, impute, etc.).  
+
+- [x] **Univariate Analysis**  
+  - Plots: histograms, density plots for numerical features.  
+  - Plots: bar plotsfor categorical features.  
+  - Identified skewness, outliers, and basic data distribution insights.  
+
+- [x] **Bivariate Analysis**  
+  - Numerical vs Numerical: scatter plots, correlation matrix.  
+  - Numerical vs Categorical: grouped box plots, grouped bar plots.  
+
+- [x] **Multivariate Analysis**  
+  - Pairplots of key numeric variables.  
+  - Heatmap of correlations (numeric variables).  
+  - Explored 3-way interactions or grouped summaries.  
+
+- [x] **Observations / Notes Written**  
+  - Key insights documented (e.g., high correlations, skewed variables, categorical imbalance).  
+  - Mentioned potential issues (outliers, data imbalance, missingness).  
+
+- [ ] **Notebook Saved to GitHub**  
+  - Verified that outputs and code are visible in GitHub (not just empty code cells).  
+
+---
+
+**✅ Phase 2 — Module 4 & 5: Advanced EDA, Time Series & Clustering**  
+
+- [x] **1D Statistical Analysis**  
+  - Skewness, quantiles (Q1, median, Q3, IQR).  
+  - Frequency distributions for numerical + categorical features.  
+  - Boxplots and violin plots.  
+  - Outlier detection (1.5×IQR rule).  
+
+- [x] **2D Statistical Analysis**  
+  - Numerical vs Numerical: scatter + regression, correlation heatmap.  
+  - Numerical vs Categorical: grouped box/violin plots, group stats.  
+  - Categorical vs Categorical: contingency tables, stacked bar plots, chi-square test.  
+
+- [x] **3D Analysis**  
+  - 3D scatter plots for top 3 numeric features.  
+  - Grouped box/violin plots with categorical coloring.  
+
+- [x] **Time Series Analysis (if applicable)**  
+  - Detected year/date column and converted to datetime index.  
+  - Annual resampling and trend visualization.  
+  - Rolling mean/log transform for smoothing.  
+  - Grouped trends by categorical feature.  
+
+- [x] **Clustering (Module 5)**  
+  - Feature selection and scaling.  
+  - **KMeans**: elbow + silhouette, cluster centers, PCA visualization.  
+  - **Agglomerative**: dendrogram, cluster counts.  
+  - **Gaussian Mixture (GMM/EM)**: BIC/AIC selection, cluster results.  
+  - Attached cluster labels back to dataset and summarized cluster profiles.  
+
+- [x] **Outlier Detection**  
+  - IQR-based detection.  
+  - Local Outlier Factor (LOF).  
+  - DBSCAN density-based outliers.  
+
+- [x] **Observations / Notes Written**  
+  - Interpreted skewness/outliers in 1D.  
+  - Explained key correlations in 2D.  
+  - Commented on 3D scatter grouping.  
+  - Documented time series patterns (if applicable).  
+  - Explained clustering results & differences across methods.  
+  - Noted outliers and treatment suggestions.  
+
+- [x] **Notebook Saved to GitHub**  
+  - Verified that Phase 2 outputs and results are visible in repo.  
+
+---
+
+✅ **Ready for Evaluation:** Phase 1 + Phase 2 tasks completed, results documented, and notebook committed to GitHub.  
+
+
+---
+
 ## ✅ Status
 
 - [x] Phase 1: Completed and submitted  
