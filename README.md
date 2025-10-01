@@ -90,8 +90,8 @@ This repository contains the complete project work for the course **BCSE331L –
 ## ✅ Status
 
 - [x] Phase 1: Completed and submitted  
-- [ ] Phase 2: In Progress  
-- [ ] Phase 3: Pending
+- [x] Phase 2: Completed and submitted  
+- [ ] Phase 3: In progress
 
 ---
 
