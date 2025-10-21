@@ -73,7 +73,7 @@ This repository contains the complete project work for the course **BCSE331L –
 
 - `22BDS0116.ipynb` – All code notebooks for all phases
 - Visualizations embedded with markdown explanations
-- Final project report (PDF upload in VTOP)
+- Final project report (PDF upload in VTOP) :- https://github.com/PSURI1894/EDA_22BDS0116/blob/main/edafinalreport.pdf
 - GitHub link submission for each phase via Google Forms
 
 ---
