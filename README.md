@@ -177,6 +177,44 @@ This repository contains the complete project work for the course **BCSE331L –
 
 ---
 
+---
+
+Phase 3 — Modules 6 & 7: Dimensionality Reduction & Model Development
+
+- [x] **Dimensionality Reduction**
+ -Applied Principal Component Analysis (PCA) and visualized explained variance.
+ -Performed Factor Analysis (FA) for latent variable identification.
+ -Interpreted component loadings and factor strengths.
+ -Used PCA-transformed data for visualization and model input.
+
+- [x] **Model Development & Evaluation**
+ -Defined target variable Died (0 = Survived, 1 = Fatal).
+ -Implemented regression models: Linear, Ridge (L2), Lasso (L1).
+ -Standardized features and used polynomial transformations for feature interactions.
+ -Evaluated models using R², RMSE, MAE, and cross-validation.
+ -Selected Ridge Regression as final model (R² ≈ 0.69 CV).
+
+- [x] **Model Interpretation**
+ -Identified significant predictors: Hospitalised, Age, Method_Pesticide, Occupation_Farming.
+ -Discussed model strengths, stability, and limitations.
+ -Plotted Actual vs Predicted and Residuals distributions.
+
+- [x] **Reinforcement Learning (Conceptual Overview)**
+ -Compared Supervised vs Reinforcement Learning frameworks.
+ -Discussed RL components: Agent, State, Action, Reward, Policy.
+ -Related RL to healthcare policy optimization and adaptive intervention strategies.
+
+- [x] **Documentation & Reporting**
+ Added detailed Markdown summaries (Model Evaluation + RL Overview).
+ Prepared final Phase 3 report summarizing all modules (2–7).
+ Report exported as PDF (22BDS0116_ParthSuri_EDA_Report.pdf).
+
+- [x] **Final Verification**
+ -All outputs and graphs visible in GitHub version of notebook.
+ -Report and notebook submitted before 10 Nov 2025 deadline.
+
+---
+
 ✅ **Ready for Evaluation:** Phase 1 + Phase 2 tasks completed, results documented, and notebook committed to GitHub.  
 
 
