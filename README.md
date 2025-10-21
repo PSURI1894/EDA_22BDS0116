@@ -212,11 +212,125 @@ This repository contains the complete project work for the course **BCSE331L –
 
 - [x] **Final Verification**
   - All outputs and graphs visible in GitHub version of notebook.
-  - Report and notebook submitted before 10 Nov 2025 deadline.
+  - Report and notebook submitted before 10 Nov 2025 dea
   
+## 🚀 Phase Highlights — BCSE331L Exploratory Data Analysis Project
+
 ---
 
-✅ **Ready for Evaluation:** Phase 1 + Phase 2 tasks completed, results documented, and notebook committed to GitHub.  
+### 🧩 **Phase 1 — Data Cleaning & Multivariate Analysis (Modules 1–3)**
+
+#### **Module Overview**
+This phase focused on understanding the dataset, cleaning inconsistencies, and exploring one-dimensional, two-dimensional, and multi-dimensional relationships through visual and statistical methods.
+
+#### **Key Steps**
+- **Dataset Exploration:** Loaded and verified `SuicideChina.csv`, analyzed dimensions, column types, and null counts.  
+- **Data Cleaning:** Removed duplicates, standardized categorical values, and handled missing data.  
+- **Univariate Analysis:** Analyzed individual variable distributions using histograms, KDE plots, and boxplots.  
+- **Bivariate & Multivariate Analysis:** Explored relationships (`Age` vs `Died`, `Occupation` vs `Method`) and visualized correlations via heatmaps and pairplots.
+
+#### **Key Findings**
+- Majority of suicide cases occurred among **rural, farming populations**.  
+- **Hanging** and **pesticide ingestion** emerged as dominant methods.  
+- **Age** showed a right-skewed distribution (middle-aged and elderly more prone).  
+- Strong correlation observed between **Occupation** and **Method**, indicating occupational exposure influence.
+
+---
+
+### 📊 **Phase 2 — Advanced EDA, Time Series & Clustering (Modules 4–5)**
+
+#### **Module Overview**
+Phase 2 deepened the analysis through advanced visualization, time series insights, and clustering to identify hidden behavioral patterns.
+
+#### **Module 4 – Advanced Visualization & Statistical Analysis**
+- Performed **1D, 2D, and 3D analyses** with statistical depth.  
+- Used **boxplots, violin plots, regression plots**, and **catplots** for rich visual storytelling.  
+- Identified **outliers** using IQR and **skewness-based metrics**.  
+- Constructed **contingency tables** and applied **Chi-square tests** for categorical dependency.
+
+#### **Module 5 – Clustering & Outlier Detection**
+- Implemented multiple clustering algorithms:  
+  - **K-Means:** Optimal clusters via Elbow + Silhouette methods.  
+  - **Agglomerative:** Hierarchical dendrogram-based grouping.  
+  - **GMM (EM):** Compared clusters using BIC/AIC criteria.  
+- Conducted **Outlier Detection** using IQR, DBSCAN, and Local Outlier Factor (LOF).
+
+#### **Key Findings**
+- K-Means formed **3 major behavioral clusters**:
+  - **Cluster 1:** Elderly farmers using pesticide methods.  
+  - **Cluster 2:** Middle-aged females using non-chemical methods.  
+  - **Cluster 3:** Younger, hospitalized individuals with higher survival rates.  
+- Outliers corresponded to **rare urban cases or unusual methods**.  
+- No major seasonal pattern but visible rural-urban disparity.
+
+---
+
+### 🧠 **Phase 3 — Dimensionality Reduction & Model Development (Modules 6–7)**
+
+#### **Module 6 – Dimensionality Reduction**
+- Applied **PCA** to reduce correlated numeric features.  
+- Identified dominant components: `Age`, `Occupation`, `Method`.  
+- Performed **Factor Analysis** to uncover **latent behavioral and socio-economic dimensions**.  
+- Visualized explained variance and factor loadings through heatmaps.
+
+#### **Module 7 – Model Development & Evaluation**
+- Developed regression models to predict **fatality likelihood (`Died`)**.  
+- Compared **Linear Regression**, **Ridge (L2)**, and **Lasso (L1)**.  
+- Regularization (Ridge) improved model stability and generalization.  
+- Achieved cross-validation **R² ≈ 0.695 ± 0.05**.
+
+#### 📈 **Model Performance Summary**
+
+| Model | R² | RMSE | MAE | Remarks |
+|:--|:--:|:--:|:--:|:--|
+| Linear Regression | 0.6419 | 0.2999 | 0.1660 | Baseline Model |
+| **Ridge (L2)** | **0.6419 / CV ≈ 0.695** | **0.2998** | **0.1661** | Best Stability + Generalization |
+| Lasso (L1)** | 0.6384 | 0.3004 | 0.1740 | Slight Underfit |
+
+#### 🔍 **Key Insights**
+- **Hospitalised → Negative impact**, indicating higher survival.  
+- **Method_Pesticide & Occupation_Farming → Positive relation** with fatalities.  
+- **Age & Year → Temporal trend**, showing increased risk among older groups.
+
+---
+
+### 🤖 **Reinforcement Learning — Conceptual Perspective**
+
+Although not implemented, **Reinforcement Learning (RL)** was studied conceptually for dynamic suicide prevention policy modeling.
+
+| Aspect | Supervised Learning | Reinforcement Learning |
+|:--|:--|:--|
+| **Input Data** | Labeled samples | Reward feedback from environment |
+| **Goal** | Minimize prediction error | Maximize cumulative reward |
+| **Example** | Predict suicide fatality | Simulate policy to reduce fatalities |
+| **Feedback** | Immediate and direct | Delayed and cumulative |
+
+**Applications:** Healthcare optimization · Resource allocation · Adaptive policy formulation · Mental health intervention design  
+
+---
+
+### 📊 **Key Findings Across Phases**
+
+- Suicide fatalities correlate strongly with **occupation (farming)** and **method (pesticide)**.  
+- **Hospitalisation** acts as a major protective variable.  
+- **Dimensionality Reduction** uncovered two latent components — demographic and method-based.  
+- **Ridge Regression** achieved the best balance of bias and variance.  
+- Conceptually, **Reinforcement Learning** provides a framework for adaptive intervention policy design.
+
+---
+
+### 🧩 **Future Scope**
+
+- Extend to **classification models** (Logistic Regression, Random Forest, XGBoost).  
+- Integrate **psychological, healthcare, and economic datasets** for holistic insights.  
+- Implement **time-series forecasting** to predict long-term suicide trends.  
+- Apply **SHAP-based explainability** for transparent and ethical model interpretation.  
+
+---
+
+---
+
+✅ **Ready for Evaluation:** Phase 1 + Phase 2 + Phase 3 tasks completed, results documented, and notebook committed to GitHub.  
 
 
 ---
