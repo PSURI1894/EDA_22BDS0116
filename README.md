@@ -48,12 +48,13 @@ This repository contains the complete project work for the course **BCSE331L –
 
 ## 📌 Key Techniques Used
 
-- **Data Handling:** Deduplication, Binning, Missing Value Treatment
-- **Statistical Analysis:** Descriptive statistics, correlation, contingency tables
-- **Visualization:** Bar plots, Histograms, Scatter plots, Catplots, Pairplots
-- **Clustering:** Hierarchical, Model-Based, Spectral, Outlier Detection
-- **Dimensionality Reduction:** PCA, SVD, Factor Analysis, t-SNE (optional)
-- **Model Development:** Linear Regression, Accuracy Evaluation
+- **Data Handling:** Deduplication, Binning, Missing-value Treatment
+- **Statistical Analysis:** Descriptive stats, Correlation, Contingncy Tables
+- **Visualization:** Histograms, Boxplots, Heatmaps, Pairplots, 3-D Scatter Plots
+- **Clustering:** K-Means, Agglomerative, Gaussian Mixture, Outlier Detection
+- **Dimensionality Reduction:** PCA, SVD, Factor Analysis
+- **Regression Models:** Linear, Ridge (L2), Lasso (L1)
+- **Evaluation Metrics:** R², RMSE, MAE, Cross-Validation Scores
 
 ---
 
