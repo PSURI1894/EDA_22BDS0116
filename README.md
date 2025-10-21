@@ -328,18 +328,19 @@ Although not implemented, **Reinforcement Learning (RL)** was studied conceptual
 
 ---
 
----
-
 ✅ **Ready for Evaluation:** Phase 1 + Phase 2 + Phase 3 tasks completed, results documented, and notebook committed to GitHub.  
 
 
 ---
 
-## ✅ Status
+## 🏁 **Project Status**
 
-- [x] Phase 1: Completed and submitted  
-- [x] Phase 2: Completed and submitted  
-- [x] Phase 3: Completed and submitted
+| Phase | Description | Status |
+|:--|:--|:--:|
+| **Phase 1** | Data Cleaning & Multivariate EDA | ✅ Completed |
+| **Phase 2** | Advanced EDA & Clustering | ✅ Completed |
+| **Phase 3** | Dimensionality Reduction & Modeling | ✅ Completed |
+| **Final Report** | Documentation & VTop Submission | 🟢 Ready |
 
 ---
 
