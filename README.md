@@ -182,10 +182,10 @@ This repository contains the complete project work for the course **BCSE331L –
 **✅ Phase 3 — Modules 6 & 7: Dimensionality Reduction & Model Development**
 
 - [x] **Dimensionality Reduction**
- - Applied Principal Component Analysis (PCA) and visualized explained variance.
- - Performed Factor Analysis (FA) for latent variable identification.
- - Interpreted component loadings and factor strengths.
- - Used PCA-transformed data for visualization and model input.
+  - Applied Principal Component Analysis (PCA) and visualized explained variance.
+  - Performed Factor Analysis (FA) for latent variable identification.
+  - Interpreted component loadings and factor strengths.
+  - Used PCA-transformed data for visualization and model input.
 
 - [x] **Model Development & Evaluation**
   - Defined target variable Died (0 = Survived, 1 = Fatal).
@@ -224,7 +224,7 @@ This repository contains the complete project work for the course **BCSE331L –
 
 - [x] Phase 1: Completed and submitted  
 - [x] Phase 2: Completed and submitted  
-- [ ] Phase 3: In progress
+- [x] Phase 3: Completed and submitted
 
 ---
 
